@@ -1,0 +1,60 @@
+body{
+  background-image:url("/images/back1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h1{
+  margin-top:2px;
+  font-size: 2.5rem;
+  color:white;
+  text-align: center;
+  font-family: sans-serif;
+}
+.container{
+  padding: 3%;
+  margin: 10% auto;
+  min-height: 50vh;
+  width: 30%;
+}
+
+.user{
+  display: block;
+  margin: auto;
+  width: 70%;
+  min-height: 30px;
+  border-radius: 4px;
+  padding: 3px;
+}
+
+.btn{
+  font-size: 1rem;
+  border-radius: 2px;
+  color:white;
+  background-color: black;
+  width: 80px;
+  height: 40px;
+  display: block;
+  margin: auto;
+}
+
+input{
+
+  color:white;
+  font-size: 1.2rem;
+  background:transparent;
+  border-bottom-width:2px;
+  border-bottom-color:white;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+
+}
+
+input::placeholder{
+  color:white;
+}
+
+input:focus{
+  outline: none;
+}
