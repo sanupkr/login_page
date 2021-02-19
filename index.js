@@ -10,7 +10,7 @@ const body_parser =  require("body-parser");
 app.use(body_parser.urlencoded({extended:true}));
 app.use(express.static("public"));
 
-app.listen(3000,function(err){
+app.listen(process.env.PORT,function(err){
   if(!err)
   {
     console.log("server is running at port 3000");
